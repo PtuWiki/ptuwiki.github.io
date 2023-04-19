@@ -1,0 +1,2 @@
+# Pokémon Tabletop United Wiki
+Pokémon Tabletop United is a Pokémon-themed ttrpg. This is a wiki to catalogue resources related to it. This is a fan wiki. The creator of this wiki is not associated with the creators of Pokémon Tabletop United
