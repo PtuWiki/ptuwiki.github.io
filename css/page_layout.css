@@ -1,0 +1,30 @@
+.header-rest-wrapper {
+	display: grid;
+	grid-template-rows: 5% 1fr;
+}
+
+.header-rest-wrapper > * {
+	padding: .5rem;
+}
+
+.nav-main-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 10fr;
+}
+
+.sidebar {
+	padding: 1rem;
+}
+
+.sidebar > ul {
+	list-style-type: none;
+	padding: 0;
+}
+.sidebar > ul > li {
+	margin-block: 1rem;
+}
+
+.page-content {
+	padding: .5rem 2rem 20rem;
+	margin-right: 3rem;
+}

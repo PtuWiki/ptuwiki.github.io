@@ -1,0 +1,64 @@
+
+.image-box {
+	text-align: center;
+}
+
+@media screen and (min-width: 619px)
+{
+	.image-box {
+		float: right;
+		margin: repeat(2, 2rem) 0 0;
+	}
+}
+
+.image-box > img {
+	max-height: 10rem;
+}
+
+.title {
+	margin-bottom: .5rem;
+}
+.icon {
+	margin-inline: 0rem;
+	height: 1em;
+}
+
+.subheading {
+	margin-bottom: 0;
+}
+
+.types {
+	display: flex;
+	gap: 1rem;
+}
+
+.content-box {
+	display: flex;
+	gap: 3rem;
+	flex-basis: 0;
+
+	margin-top: 2rem;
+}
+
+/* stats */
+.stat-table {
+	/* I don't like how this works but idk how else to fix this.
+	i hate tables -morgan 2023-04-20 */
+	--gap: 2.5rem;
+	margin-left: calc(-1 * var(--gap));
+	border-spacing: var(--gap) .7rem;
+}
+.stat-table td {
+	text-align: end;
+}
+.stat-table td:first-child {
+	text-align: start;
+}
+
+/* abilities */
+.ability-list {
+	padding: .2rem;
+	margin-top: .6rem;
+}
+
+/* evolutions */
